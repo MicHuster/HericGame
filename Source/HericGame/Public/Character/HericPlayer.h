@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Character/HericCharacter.h"
+
 #include "HericPlayer.generated.h"
 
 /**

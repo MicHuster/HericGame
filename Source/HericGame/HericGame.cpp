@@ -3,4 +3,18 @@
 #include "HericGame.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, HericGame, "HericGame" );
+/**
+ * FHericGameModule
+ */
+class FHericGameModule : public FDefaultGameModuleImpl
+{
+	virtual void StartupModule() override
+	{
+	}
+
+	virtual void ShutdownModule() override
+	{
+	}
+};
+
+IMPLEMENT_PRIMARY_GAME_MODULE(FHericGameModule, HericGame, "HericGame");
